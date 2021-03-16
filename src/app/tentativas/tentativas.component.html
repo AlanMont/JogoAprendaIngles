@@ -1,0 +1,3 @@
+<!--os [] são utilizados devido ao property binding, desta forma os atributos se tornam dinâmicos-->
+
+<img *ngFor ="let coracao of coracoes" [src] = "coracao.exibeCoracao()" />
